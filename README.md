@@ -1,1 +1,1 @@
-学子solidity时写的例子
+学习solidity时写的例子
