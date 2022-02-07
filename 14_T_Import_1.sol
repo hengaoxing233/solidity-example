@@ -2,7 +2,7 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-contract ExampleImport1{
+contract ExampleImport{
     uint public age = 80;
     string private name = "HGX";
     
