@@ -14,6 +14,7 @@ contract ExampleReceiveTokenContract{
     }
 
     function transferFrom(uint _amount) public{
+        //将token经过合约转账必须使用transferFrom,否则是由合约转出币而不是发送者的账号
         myToken.transferFrom(msg.sender,address(this),_amount);
     }
 
