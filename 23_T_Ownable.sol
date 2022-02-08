@@ -13,4 +13,7 @@ contract Hengaoxing is ERC20, Ownable {
     function mint(address to, uint256 amount) public onlyOwner {
         _mint(to, amount);
     }
+    //renounceOwnership 丢掉管理员权限
+    //transferOwnership 转让管理员权限
+    
 }
