@@ -1,0 +1,16 @@
+https://docs.openzeppelin.com/contracts/4.x/wizard
+
+Mintable //可以增发代币给某个地址
+Burnable //可燃烧代币
+Pausable //暂停合约调用
+Permit //允许A转B,没完全懂,以后再学
+Votes //投票
+Flash Minting //借贷?
+Snapshots //快照
+
+Ownable //管理员
+Roles //设置角色权限
+
+upgradeability //可升级性
+推荐使用 UUPS 代理的形式实现升级
+
